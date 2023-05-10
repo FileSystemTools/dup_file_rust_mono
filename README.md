@@ -5,12 +5,15 @@ Duplicate file finder/remover - a monolithic rust application
 
 ### Compiling the binary
 Clone the repository and build manually:
+
+```
 $ mkdir -p ~/github.com/dup_file_rust_mono
 $ cd ~/github.com/dup_file_rust_mono
 $ git clone https://github.com/FileSystemTools/dup_file_rust_mono.git
 $ cd dup_file_rust_mono
 $ cargo build
 $ target/dup_file_rust_mono
+```
 
 ## Functional Requirements
 1. Take a list of directories to scan for files
